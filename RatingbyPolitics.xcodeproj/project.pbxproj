@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0FB6A31902F1F00062F106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FB6A21902F1F00062F106 /* Foundation.framework */; };
+		0F0FB6A51902F1F00062F106 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FB6A41902F1F00062F106 /* CoreGraphics.framework */; };
+		0F0FB6A71902F1F00062F106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FB6A61902F1F00062F106 /* UIKit.framework */; };
+		0F0FB6AF1902F1F00062F106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6AE1902F1F00062F106 /* main.m */; };
+		0F0FB6B31902F1F00062F106 /* mercoolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6B21902F1F00062F106 /* mercoolAppDelegate.m */; };
+		0F0FB6B61902F1F00062F106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6B41902F1F00062F106 /* Main.storyboard */; };
+		0F0FB6B91902F1F00062F106 /* mercoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6B81902F1F00062F106 /* mercoolViewController.m */; };
+		0F0FB6BB1902F1F00062F106 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6BA1902F1F00062F106 /* Images.xcassets */; };
+		0F0FB6C21902F1F00062F106 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FB6C11902F1F00062F106 /* XCTest.framework */; };
+		0F0FB6C31902F1F00062F106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FB6A21902F1F00062F106 /* Foundation.framework */; };
+		0F0FB6C41902F1F00062F106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FB6A61902F1F00062F106 /* UIKit.framework */; };
+		0F0FB6CE1902F1F00062F106 /* RatingbyPoliticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6CD1902F1F00062F106 /* RatingbyPoliticsTests.m */; };
+		0F0FB6D91902FB6C0062F106 /* cellPolitics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6D81902FB6C0062F106 /* cellPolitics.m */; };
+		0F0FB6DD1902FD9A0062F106 /* down_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6DB1902FD9A0062F106 /* down_64.png */; };
+		0F0FB6DE1902FD9A0062F106 /* up_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6DC1902FD9A0062F106 /* up_64.png */; };
+		0F0FB6E1190306EC0062F106 /* down_64_clik.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6DF190306EC0062F106 /* down_64_clik.png */; };
+		0F0FB6E2190306EC0062F106 /* up_64_clikc.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6E0190306EC0062F106 /* up_64_clikc.png */; };
+		0F0FB6E4190309F60062F106 /* putin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FB6E3190309F60062F106 /* putin.jpg */; };
+		0F0FB6E719031AC50062F106 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6E619031AC50062F106 /* PageViewController.m */; };
+		0F0FB6EA19031EBF0062F106 /* ButtonIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0FB6E919031EBF0062F106 /* ButtonIndex.m */; };
+		0F5953E219052F20008B7CE4 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5953E019052F20008B7CE4 /* gradient.png */; };
+		0F5953E319052F20008B7CE4 /* gradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F5953E119052F20008B7CE4 /* gradient2.png */; };
+		0FC72AEA1905816F005562F6 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72AE61905816F005562F6 /* icon114.png */; };
+		0FC72AEB1905816F005562F6 /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72AE71905816F005562F6 /* icon40.png */; };
+		0FC72AEC1905816F005562F6 /* icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72AE81905816F005562F6 /* icon58.png */; };
+		0FC72AED1905816F005562F6 /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72AE91905816F005562F6 /* icon60.png */; };
+		0FC72AF0190587E5005562F6 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72AEE190587E5005562F6 /* default.png */; };
+		0FC72AF1190587E5005562F6 /* default2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72AEF190587E5005562F6 /* default2.png */; };
+		0FC72AF3190592B9005562F6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC72AF2190592B9005562F6 /* iAd.framework */; };
+		0FCC005A19051A9C0026EBA6 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC005919051A9C0026EBA6 /* MySingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F0FB6C51902F1F00062F106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F0FB6971902F1F00062F106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0FB69E1902F1F00062F106;
+			remoteInfo = RatingbyPolitics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0FB69F1902F1F00062F106 /* RatingbyPolitics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingbyPolitics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0FB6A21902F1F00062F106 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F0FB6A41902F1F00062F106 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F0FB6A61902F1F00062F106 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F0FB6AA1902F1F00062F106 /* RatingbyPolitics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingbyPolitics-Info.plist"; sourceTree = "<group>"; };
+		0F0FB6AE1902F1F00062F106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F0FB6B01902F1F00062F106 /* RatingbyPolitics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatingbyPolitics-Prefix.pch"; sourceTree = "<group>"; };
+		0F0FB6B11902F1F00062F106 /* mercoolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mercoolAppDelegate.h; sourceTree = "<group>"; };
+		0F0FB6B21902F1F00062F106 /* mercoolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mercoolAppDelegate.m; sourceTree = "<group>"; };
+		0F0FB6B51902F1F00062F106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F0FB6B71902F1F00062F106 /* mercoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mercoolViewController.h; sourceTree = "<group>"; };
+		0F0FB6B81902F1F00062F106 /* mercoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mercoolViewController.m; sourceTree = "<group>"; };
+		0F0FB6BA1902F1F00062F106 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F0FB6C01902F1F00062F106 /* RatingbyPoliticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingbyPoliticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0FB6C11902F1F00062F106 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0F0FB6C91902F1F00062F106 /* RatingbyPoliticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingbyPoliticsTests-Info.plist"; sourceTree = "<group>"; };
+		0F0FB6CD1902F1F00062F106 /* RatingbyPoliticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingbyPoliticsTests.m; sourceTree = "<group>"; };
+		0F0FB6D71902FB6C0062F106 /* cellPolitics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellPolitics.h; sourceTree = "<group>"; };
+		0F0FB6D81902FB6C0062F106 /* cellPolitics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellPolitics.m; sourceTree = "<group>"; };
+		0F0FB6DB1902FD9A0062F106 /* down_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_64.png; sourceTree = "<group>"; };
+		0F0FB6DC1902FD9A0062F106 /* up_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_64.png; sourceTree = "<group>"; };
+		0F0FB6DF190306EC0062F106 /* down_64_clik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_64_clik.png; sourceTree = "<group>"; };
+		0F0FB6E0190306EC0062F106 /* up_64_clikc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_64_clikc.png; sourceTree = "<group>"; };
+		0F0FB6E3190309F60062F106 /* putin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = putin.jpg; sourceTree = "<group>"; };
+		0F0FB6E519031AC50062F106 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		0F0FB6E619031AC50062F106 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		0F0FB6E819031EBF0062F106 /* ButtonIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonIndex.h; sourceTree = "<group>"; };
+		0F0FB6E919031EBF0062F106 /* ButtonIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonIndex.m; sourceTree = "<group>"; };
+		0F0FB6EB1903B0420062F106 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		0F5953E019052F20008B7CE4 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		0F5953E119052F20008B7CE4 /* gradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient2.png; sourceTree = "<group>"; };
+		0FC72AE61905816F005562F6 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		0FC72AE71905816F005562F6 /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon40.png; sourceTree = "<group>"; };
+		0FC72AE81905816F005562F6 /* icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon58.png; sourceTree = "<group>"; };
+		0FC72AE91905816F005562F6 /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		0FC72AEE190587E5005562F6 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		0FC72AEF190587E5005562F6 /* default2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default2.png; sourceTree = "<group>"; };
+		0FC72AF2190592B9005562F6 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		0FCC005819051A9C0026EBA6 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		0FCC005919051A9C0026EBA6 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0FB69C1902F1F00062F106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC72AF3190592B9005562F6 /* iAd.framework in Frameworks */,
+				0F0FB6A51902F1F00062F106 /* CoreGraphics.framework in Frameworks */,
+				0F0FB6A71902F1F00062F106 /* UIKit.framework in Frameworks */,
+				0F0FB6A31902F1F00062F106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0FB6BD1902F1F00062F106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0FB6C21902F1F00062F106 /* XCTest.framework in Frameworks */,
+				0F0FB6C41902F1F00062F106 /* UIKit.framework in Frameworks */,
+				0F0FB6C31902F1F00062F106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0FB6961902F1F00062F106 = {
+			isa = PBXGroup;
+			children = (
+				0F0FB6A81902F1F00062F106 /* RatingbyPolitics */,
+				0F0FB6C71902F1F00062F106 /* RatingbyPoliticsTests */,
+				0F0FB6A11902F1F00062F106 /* Frameworks */,
+				0F0FB6A01902F1F00062F106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F0FB6A01902F1F00062F106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB69F1902F1F00062F106 /* RatingbyPolitics.app */,
+				0F0FB6C01902F1F00062F106 /* RatingbyPoliticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F0FB6A11902F1F00062F106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC72AF2190592B9005562F6 /* iAd.framework */,
+				0F0FB6A21902F1F00062F106 /* Foundation.framework */,
+				0F0FB6A41902F1F00062F106 /* CoreGraphics.framework */,
+				0F0FB6A61902F1F00062F106 /* UIKit.framework */,
+				0F0FB6C11902F1F00062F106 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F0FB6A81902F1F00062F106 /* RatingbyPolitics */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB6B11902F1F00062F106 /* mercoolAppDelegate.h */,
+				0F0FB6B21902F1F00062F106 /* mercoolAppDelegate.m */,
+				0F0FB6B41902F1F00062F106 /* Main.storyboard */,
+				0FCC005819051A9C0026EBA6 /* MySingleton.h */,
+				0FCC005919051A9C0026EBA6 /* MySingleton.m */,
+				0F0FB6E519031AC50062F106 /* PageViewController.h */,
+				0F0FB6E619031AC50062F106 /* PageViewController.m */,
+				0F0FB6D71902FB6C0062F106 /* cellPolitics.h */,
+				0F0FB6D81902FB6C0062F106 /* cellPolitics.m */,
+				0F0FB6E819031EBF0062F106 /* ButtonIndex.h */,
+				0F0FB6E919031EBF0062F106 /* ButtonIndex.m */,
+				0F0FB6B71902F1F00062F106 /* mercoolViewController.h */,
+				0F0FB6B81902F1F00062F106 /* mercoolViewController.m */,
+				0FC72AE51905816F005562F6 /* icon */,
+				0F0FB6BA1902F1F00062F106 /* Images.xcassets */,
+				0F0FB6DA1902FCCD0062F106 /* img */,
+				0F0FB6A91902F1F00062F106 /* Supporting Files */,
+			);
+			path = RatingbyPolitics;
+			sourceTree = "<group>";
+		};
+		0F0FB6A91902F1F00062F106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB6AA1902F1F00062F106 /* RatingbyPolitics-Info.plist */,
+				0F0FB6AE1902F1F00062F106 /* main.m */,
+				0F0FB6B01902F1F00062F106 /* RatingbyPolitics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0FB6C71902F1F00062F106 /* RatingbyPoliticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB6CD1902F1F00062F106 /* RatingbyPoliticsTests.m */,
+				0F0FB6C81902F1F00062F106 /* Supporting Files */,
+			);
+			path = RatingbyPoliticsTests;
+			sourceTree = "<group>";
+		};
+		0F0FB6C81902F1F00062F106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FB6C91902F1F00062F106 /* RatingbyPoliticsTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0FB6DA1902FCCD0062F106 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				0F5953E019052F20008B7CE4 /* gradient.png */,
+				0F5953E119052F20008B7CE4 /* gradient2.png */,
+				0F0FB6E3190309F60062F106 /* putin.jpg */,
+				0F0FB6DF190306EC0062F106 /* down_64_clik.png */,
+				0F0FB6E0190306EC0062F106 /* up_64_clikc.png */,
+				0F0FB6DB1902FD9A0062F106 /* down_64.png */,
+				0F0FB6DC1902FD9A0062F106 /* up_64.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		0FC72AE51905816F005562F6 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				0FC72AEE190587E5005562F6 /* default.png */,
+				0FC72AEF190587E5005562F6 /* default2.png */,
+				0FC72AE61905816F005562F6 /* icon114.png */,
+				0FC72AE71905816F005562F6 /* icon40.png */,
+				0FC72AE81905816F005562F6 /* icon58.png */,
+				0FC72AE91905816F005562F6 /* icon60.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F0FB69E1902F1F00062F106 /* RatingbyPolitics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0FB6D11902F1F00062F106 /* Build configuration list for PBXNativeTarget "RatingbyPolitics" */;
+			buildPhases = (
+				0F0FB69B1902F1F00062F106 /* Sources */,
+				0F0FB69C1902F1F00062F106 /* Frameworks */,
+				0F0FB69D1902F1F00062F106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatingbyPolitics;
+			productName = RatingbyPolitics;
+			productReference = 0F0FB69F1902F1F00062F106 /* RatingbyPolitics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F0FB6BF1902F1F00062F106 /* RatingbyPoliticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0FB6D41902F1F00062F106 /* Build configuration list for PBXNativeTarget "RatingbyPoliticsTests" */;
+			buildPhases = (
+				0F0FB6BC1902F1F00062F106 /* Sources */,
+				0F0FB6BD1902F1F00062F106 /* Frameworks */,
+				0F0FB6BE1902F1F00062F106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F0FB6C61902F1F00062F106 /* PBXTargetDependency */,
+			);
+			name = RatingbyPoliticsTests;
+			productName = RatingbyPoliticsTests;
+			productReference = 0F0FB6C01902F1F00062F106 /* RatingbyPoliticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F0FB6971902F1F00062F106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mercool;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CooLX;
+				TargetAttributes = {
+					0F0FB6BF1902F1F00062F106 = {
+						TestTargetID = 0F0FB69E1902F1F00062F106;
+					};
+				};
+			};
+			buildConfigurationList = 0F0FB69A1902F1F00062F106 /* Build configuration list for PBXProject "RatingbyPolitics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F0FB6961902F1F00062F106;
+			productRefGroup = 0F0FB6A01902F1F00062F106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F0FB69E1902F1F00062F106 /* RatingbyPolitics */,
+				0F0FB6BF1902F1F00062F106 /* RatingbyPoliticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F0FB69D1902F1F00062F106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5953E319052F20008B7CE4 /* gradient2.png in Resources */,
+				0F0FB6E4190309F60062F106 /* putin.jpg in Resources */,
+				0F0FB6E1190306EC0062F106 /* down_64_clik.png in Resources */,
+				0FC72AED1905816F005562F6 /* icon60.png in Resources */,
+				0FC72AEC1905816F005562F6 /* icon58.png in Resources */,
+				0FC72AEB1905816F005562F6 /* icon40.png in Resources */,
+				0F0FB6BB1902F1F00062F106 /* Images.xcassets in Resources */,
+				0F0FB6E2190306EC0062F106 /* up_64_clikc.png in Resources */,
+				0F0FB6B61902F1F00062F106 /* Main.storyboard in Resources */,
+				0FC72AF1190587E5005562F6 /* default2.png in Resources */,
+				0FC72AF0190587E5005562F6 /* default.png in Resources */,
+				0F5953E219052F20008B7CE4 /* gradient.png in Resources */,
+				0F0FB6DD1902FD9A0062F106 /* down_64.png in Resources */,
+				0F0FB6DE1902FD9A0062F106 /* up_64.png in Resources */,
+				0FC72AEA1905816F005562F6 /* icon114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0FB6BE1902F1F00062F106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0FB69B1902F1F00062F106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCC005A19051A9C0026EBA6 /* MySingleton.m in Sources */,
+				0F0FB6EA19031EBF0062F106 /* ButtonIndex.m in Sources */,
+				0F0FB6D91902FB6C0062F106 /* cellPolitics.m in Sources */,
+				0F0FB6B91902F1F00062F106 /* mercoolViewController.m in Sources */,
+				0F0FB6B31902F1F00062F106 /* mercoolAppDelegate.m in Sources */,
+				0F0FB6E719031AC50062F106 /* PageViewController.m in Sources */,
+				0F0FB6AF1902F1F00062F106 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0FB6BC1902F1F00062F106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0FB6CE1902F1F00062F106 /* RatingbyPoliticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F0FB6C61902F1F00062F106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F0FB69E1902F1F00062F106 /* RatingbyPolitics */;
+			targetProxy = 0F0FB6C51902F1F00062F106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F0FB6B41902F1F00062F106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0FB6B51902F1F00062F106 /* Base */,
+				0F0FB6EB1903B0420062F106 /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F0FB6CF1902F1F00062F106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F0FB6D01902F1F00062F106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F0FB6D21902F1F00062F106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingbyPolitics/RatingbyPolitics-Prefix.pch";
+				INFOPLIST_FILE = "RatingbyPolitics/RatingbyPolitics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F0FB6D31902F1F00062F106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingbyPolitics/RatingbyPolitics-Prefix.pch";
+				INFOPLIST_FILE = "RatingbyPolitics/RatingbyPolitics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0F0FB6D51902F1F00062F106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatingbyPolitics.app/RatingbyPolitics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingbyPolitics/RatingbyPolitics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RatingbyPoliticsTests/RatingbyPoliticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0F0FB6D61902F1F00062F106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatingbyPolitics.app/RatingbyPolitics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingbyPolitics/RatingbyPolitics-Prefix.pch";
+				INFOPLIST_FILE = "RatingbyPoliticsTests/RatingbyPoliticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F0FB69A1902F1F00062F106 /* Build configuration list for PBXProject "RatingbyPolitics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0FB6CF1902F1F00062F106 /* Debug */,
+				0F0FB6D01902F1F00062F106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0FB6D11902F1F00062F106 /* Build configuration list for PBXNativeTarget "RatingbyPolitics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0FB6D21902F1F00062F106 /* Debug */,
+				0F0FB6D31902F1F00062F106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0FB6D41902F1F00062F106 /* Build configuration list for PBXNativeTarget "RatingbyPoliticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0FB6D51902F1F00062F106 /* Debug */,
+				0F0FB6D61902F1F00062F106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F0FB6971902F1F00062F106 /* Project object */;
+}

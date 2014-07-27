@@ -1,0 +1,27 @@
+
+/* Class = "IBUIButton"; normalTitle = "Губернаторы"; ObjectID = "2JF-Pi-Fdu"; */
+"2JF-Pi-Fdu.normalTitle" = "Губернаторы";
+
+/* Class = "IBUIButton"; normalTitle = "Мир"; ObjectID = "4sB-3F-mrP"; */
+"4sB-3F-mrP.normalTitle" = "Мир";
+
+/* Class = "IBUILabel"; text = "Post"; ObjectID = "FzV-xA-GD0"; */
+"FzV-xA-GD0.text" = "Post";
+
+/* Class = "IBUIButton"; normalTitle = "Правительство"; ObjectID = "WVg-RL-fRT"; */
+"WVg-RL-fRT.normalTitle" = "Правительство";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "XRs-IL-KzO"; */
+"XRs-IL-KzO.text" = "Name";
+
+/* Class = "IBUINavigationItem"; title = "Рейтинг Политиков"; ObjectID = "YJp-GL-zlZ"; */
+"YJp-GL-zlZ.title" = "Рейтинг Политиков";
+
+/* Class = "IBUILabel"; text = "Age"; ObjectID = "g8e-f6-H3L"; */
+"g8e-f6-H3L.text" = "Age";
+
+/* Class = "IBUILabel"; text = "RT"; ObjectID = "gZd-FY-hpv"; */
+"gZd-FY-hpv.text" = "RT";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "gfg-UU-q4B"; */
+"gfg-UU-q4B.normalTitle" = "Button";
